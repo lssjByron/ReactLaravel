@@ -4,7 +4,7 @@
             <div class="w-full lg:w-5/12 px-4">
                 <div class="hero-content">
                     <h1 class="text-white dark:text-gray-200 font-bold text-4xl sm:text-[42px] lg:text-[40px] xl:text-[42px] leading-snug mb-6">
-                        My Name is Byron. <br />
+                        My Name is Byron Roby. <br />
                         I am a <span class="rounded-md text-amber-600">Full Stack Developer</span>
                     </h1>
                     <p class="text-base mb-8 max-w-[520px] text-white">
