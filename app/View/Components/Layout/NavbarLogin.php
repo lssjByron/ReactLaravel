@@ -15,8 +15,8 @@ class NavbarLogin extends Component
     public function __construct()
     {
         $this->navigationLoginItems = [
-            ['label' => 'Login', 'href' => "{{ route('login') }}"],
-            ['label' => 'Register', 'href' => "{{ route('register') }}"],
+            ['label' => 'Login', 'href' => "/login"],
+            ['label' => 'Register', 'href' => "/register"],
         ];
     }
 
