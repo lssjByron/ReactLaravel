@@ -14,12 +14,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
-Auth::routes();
-
+Auth::routes(); //This is where the Auth login, register, etc... is defined
+Route::get('/logout', [App\Http\Controllers\LogoutController::class, 'logout']);
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::post('count', function (Request $request) {
     return response()->json([
